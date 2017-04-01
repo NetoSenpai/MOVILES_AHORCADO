@@ -24,6 +24,8 @@ namespace AHORCADOGAME
 
             var btn_aceptarinst = FindViewById<Button>(Resource.Id.btn_aceptarinst);
 
+            var imgTitulo = FindViewById<ImageView>(Resource.Id.imgTitulo);
+
             btn_aceptarinst.Click += (s, e) =>
             {
                 var intent = new Intent(this, typeof(menuActivity));

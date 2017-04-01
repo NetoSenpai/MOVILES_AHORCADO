@@ -5,9 +5,9 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="AHORCADOGAME" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="juegoActivity" android:name="md578b798426d27212ec3977d1f815bcd30.juegoActivity" />
     <activity android:label="CreditosActivity" android:name="md578b798426d27212ec3977d1f815bcd30.CreditosActivity" />
     <activity android:label="instruccionesActivity" android:name="md578b798426d27212ec3977d1f815bcd30.instruccionesActivity" />
-    <activity android:label="juegoActivity" android:name="md578b798426d27212ec3977d1f815bcd30.juegoActivity" />
     <activity android:icon="@drawable/icon" android:label="AHORCADOGAME" android:name="md578b798426d27212ec3977d1f815bcd30.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

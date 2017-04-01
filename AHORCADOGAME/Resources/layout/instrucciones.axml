@@ -10,11 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
-        <TextView
-            android:text="INSTRUCCIONES"
+        <ImageView
+            android:src="@drawable/elhg"
             android:layout_width="match_parent"
-            android:layout_height="389.5dp"
-            android:id="@+id/textView1" />
+            android:layout_height="53.5dp"
+            android:id="@+id/imgTitulo"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="0.0dp" />
     </LinearLayout>
     <Button
         android:text="ACEPTAR"

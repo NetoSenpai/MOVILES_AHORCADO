@@ -1,3 +1,7 @@
+AHORCADOGAME.juegoActivity, AHORCADOGAME;md578b798426d27212ec3977d1f815bcd30.juegoActivity
+AHORCADOGAME.juegoActivity, AHORCADOGAME, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md578b798426d27212ec3977d1f815bcd30.juegoActivity
+AHORCADOGAME.juegoActivity;md578b798426d27212ec3977d1f815bcd30.juegoActivity
+ahorcadogame.juegoActivity;md578b798426d27212ec3977d1f815bcd30.juegoActivity
 AHORCADOGAME.CreditosActivity, AHORCADOGAME;md578b798426d27212ec3977d1f815bcd30.CreditosActivity
 AHORCADOGAME.CreditosActivity, AHORCADOGAME, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md578b798426d27212ec3977d1f815bcd30.CreditosActivity
 AHORCADOGAME.CreditosActivity;md578b798426d27212ec3977d1f815bcd30.CreditosActivity
@@ -6,10 +10,6 @@ AHORCADOGAME.instruccionesActivity, AHORCADOGAME;md578b798426d27212ec3977d1f815b
 AHORCADOGAME.instruccionesActivity, AHORCADOGAME, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md578b798426d27212ec3977d1f815bcd30.instruccionesActivity
 AHORCADOGAME.instruccionesActivity;md578b798426d27212ec3977d1f815bcd30.instruccionesActivity
 ahorcadogame.instruccionesActivity;md578b798426d27212ec3977d1f815bcd30.instruccionesActivity
-AHORCADOGAME.juegoActivity, AHORCADOGAME;md578b798426d27212ec3977d1f815bcd30.juegoActivity
-AHORCADOGAME.juegoActivity, AHORCADOGAME, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md578b798426d27212ec3977d1f815bcd30.juegoActivity
-AHORCADOGAME.juegoActivity;md578b798426d27212ec3977d1f815bcd30.juegoActivity
-ahorcadogame.juegoActivity;md578b798426d27212ec3977d1f815bcd30.juegoActivity
 AHORCADOGAME.MainActivity, AHORCADOGAME;md578b798426d27212ec3977d1f815bcd30.MainActivity
 AHORCADOGAME.MainActivity, AHORCADOGAME, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md578b798426d27212ec3977d1f815bcd30.MainActivity
 AHORCADOGAME.MainActivity;md578b798426d27212ec3977d1f815bcd30.MainActivity
