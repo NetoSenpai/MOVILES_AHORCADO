@@ -54,12 +54,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\ProyectoAndroid\juegoActivity.cs">
-      <Link>juegoActivity.cs</Link>
-    </Compile>
     <Compile Include="CreditosActivity.cs" />
     <Compile Include="instruccionesActivity.cs" />
     <Compile Include="juego.cs" />
+    <Compile Include="juegoActivity.cs" />
     <Compile Include="ListasDePalabras.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="menuActivity.cs" />
