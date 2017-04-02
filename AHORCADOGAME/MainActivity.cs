@@ -24,11 +24,16 @@ namespace AHORCADOGAME
           //  var btn_caaptura = FindViewById<Button>(Resource.Id.btn_captura);
             var btn_empezar = FindViewById<Button>(Resource.Id.btn_empezar);
             var btn_salir = FindViewById<Button>(Resource.Id.btn_salir);
+            var txt_nombre = FindViewById<EditText>(Resource.Id.txtNombre);
 
 
             btn_empezar.Click += (s, e) =>
             {
                 var intent = new Intent(this, typeof(menuActivity));
+
+                intent.PutExtra(menuActivity.LLAVE_NOMBRE,txt_nombre.Text);
+
+
                 StartActivity(intent);
 
 

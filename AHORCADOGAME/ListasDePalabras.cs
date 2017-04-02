@@ -23,8 +23,8 @@ namespace AHORCADOGAME
 "BAJA CALIFORNIA",
 "BAJA CALIFORNIA SUR",
 "CAMPECHE",
-"CHIAPAS",
-"CHIHUAHUA"
+"CHIAPAS"
+//"CHIHUAHUA"
 //"COAHUILA",
 //"COLIMA",
 //"DISTRITO FEDERAL",
@@ -113,28 +113,21 @@ namespace AHORCADOGAME
 
         public static List<string> ItemSpinner = new List<string>() { "Mirar datos", "Estados Rep. Mexicana", "Estados de EU", "Frutas y verduras", "Deportes" };
 
+
+
        
 
 
 
 
-        public static List<string> LstDes(List<string> L)
-        {
-            List<string> _L = L;
-            List<string> Desordenada = new List<string>();
-            Random Rdm = new Random()        //public static int NumDeLetras()
-        //{
 
-        //}
-;
-               while (_L.Count > 0)
-                    {
-                     int IndxRdm = Rdm.Next(0, _L.Count - 1);
-                     Desordenada.Add(_L[IndxRdm]);
-                      _L.RemoveAt(IndxRdm);
-                    }
-             return Desordenada;
+        public static Queue<string> _Cola = new Queue<string>();
+        public static Queue<string> Cola
+        {
+            get { return _Cola; }
+            set { _Cola = value; }
         }
+
 
 
 
@@ -151,12 +144,12 @@ namespace AHORCADOGAME
         //------------------------------------------------------------------------
 
 
-        public static int _CantLetras;
-        public static int CantLetras
-        {
-            get { return _CantLetras; }
-            set { _CantLetras = value; }
-        } 
+        //public static int _CantLetras;
+        //public static int CantLetras
+        //{
+        //    get { return _CantLetras; }
+        //    set { _CantLetras = value; }
+        //} 
 
 
 

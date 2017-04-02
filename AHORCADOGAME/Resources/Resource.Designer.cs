@@ -72,9 +72,6 @@ namespace AHORCADOGAME
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05002b
-			public const int ED_txtNombre = 2131034155;
-			
 			// aapt resource value: 0x7f05000f
 			public const int btnA = 2131034127;
 			
@@ -165,20 +162,20 @@ namespace AHORCADOGAME
 			// aapt resource value: 0x7f050002
 			public const int btn_credito = 2131034114;
 			
-			// aapt resource value: 0x7f050038
-			public const int btn_creditos = 2131034168;
+			// aapt resource value: 0x7f050039
+			public const int btn_creditos = 2131034169;
 			
 			// aapt resource value: 0x7f050031
 			public const int btn_empezar = 2131034161;
 			
-			// aapt resource value: 0x7f050035
-			public const int btn_instrucciones = 2131034165;
-			
-			// aapt resource value: 0x7f050033
-			public const int btn_jugar = 2131034163;
-			
 			// aapt resource value: 0x7f050036
-			public const int btn_palabras = 2131034166;
+			public const int btn_instrucciones = 2131034166;
+			
+			// aapt resource value: 0x7f050034
+			public const int btn_jugar = 2131034164;
+			
+			// aapt resource value: 0x7f050037
+			public const int btn_palabras = 2131034167;
 			
 			// aapt resource value: 0x7f050032
 			public const int btn_salir = 2131034162;
@@ -198,11 +195,17 @@ namespace AHORCADOGAME
 			// aapt resource value: 0x7f050003
 			public const int imgTitulo = 2131034115;
 			
+			// aapt resource value: 0x7f050033
+			public const int lblNombre = 2131034163;
+			
 			// aapt resource value: 0x7f05000d
 			public const int lblPalabraOculta = 2131034125;
 			
-			// aapt resource value: 0x7f050039
-			public const int lblVerListas = 2131034169;
+			// aapt resource value: 0x7f05003a
+			public const int lblVerListas = 2131034170;
+			
+			// aapt resource value: 0x7f05000a
+			public const int lbl_Nombre = 2131034122;
 			
 			// aapt resource value: 0x7f050000
 			public const int linearLayout1 = 2131034112;
@@ -213,11 +216,11 @@ namespace AHORCADOGAME
 			// aapt resource value: 0x7f050009
 			public const int linearLayout3 = 2131034121;
 			
-			// aapt resource value: 0x7f05003b
-			public const int listView1 = 2131034171;
+			// aapt resource value: 0x7f05003c
+			public const int listView1 = 2131034172;
 			
-			// aapt resource value: 0x7f05003a
-			public const int spnCategorias = 2131034170;
+			// aapt resource value: 0x7f05003b
+			public const int spnCategorias = 2131034171;
 			
 			// aapt resource value: 0x7f050005
 			public const int tableLayout1 = 2131034117;
@@ -228,11 +231,11 @@ namespace AHORCADOGAME
 			// aapt resource value: 0x7f050006
 			public const int tableRow2 = 2131034118;
 			
-			// aapt resource value: 0x7f050034
-			public const int tableRow3 = 2131034164;
+			// aapt resource value: 0x7f050035
+			public const int tableRow3 = 2131034165;
 			
-			// aapt resource value: 0x7f050037
-			public const int tableRow4 = 2131034167;
+			// aapt resource value: 0x7f050038
+			public const int tableRow4 = 2131034168;
 			
 			// aapt resource value: 0x7f05002a
 			public const int textView0 = 2131034154;
@@ -249,8 +252,8 @@ namespace AHORCADOGAME
 			// aapt resource value: 0x7f05002d
 			public const int textView2 = 2131034157;
 			
-			// aapt resource value: 0x7f05000a
-			public const int textView9 = 2131034122;
+			// aapt resource value: 0x7f05002b
+			public const int txtNombre = 2131034155;
 			
 			static Id()
 			{

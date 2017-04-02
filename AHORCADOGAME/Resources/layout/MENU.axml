@@ -4,12 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px"
-    >
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/elhg"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/imageView1" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="104.5dp"
-        android:id="@+id/textView1" />
+        android:layout_height="45.5dp"
+        android:id="@+id/lblNombre"
+        android:layout_marginBottom="85.0dp"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
     <TableLayout
         android:minWidth="25px"
         android:minHeight="25px"

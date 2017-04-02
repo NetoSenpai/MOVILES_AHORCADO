@@ -15,7 +15,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="41.5dp"
-        android:id="@+id/ED_txtNombre" />
+        android:id="@+id/txtNombre"
+        android:hint="Introduzca su nombre" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="111.0dp"
