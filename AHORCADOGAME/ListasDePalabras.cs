@@ -20,9 +20,9 @@ namespace AHORCADOGAME
         public static List<string> ListaEdosMexico = new List<string>() {
 
 "AGUASCALIENTES",
-"BAJA CALIFORNIA",
+//"BAJA CALIFORNIA",
 "BAJA CALIFORNIA SUR",
-"CAMPECHE",
+//"CAMPECHE",
 "CHIAPAS"
 //"CHIHUAHUA"
 //"COAHUILA",
