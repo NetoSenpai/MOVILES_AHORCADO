@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitmapHelpers.cs" />
     <Compile Include="CreditosActivity.cs" />
     <Compile Include="instruccionesActivity.cs" />
     <Compile Include="juego.cs" />

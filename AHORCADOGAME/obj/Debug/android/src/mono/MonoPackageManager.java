@@ -110,6 +110,23 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
+		"System.IO.dll",
+		"System.Runtime.Numerics.dll",
+		"System.Xml.XmlDocument.dll",
+		"System.Xml.XDocument.dll",
+		"System.Globalization.dll",
+		"System.Threading.Tasks.dll",
+		"System.Runtime.Serialization.Primitives.dll",
+		"System.ComponentModel.TypeConverter.dll",
+		"System.Dynamic.Runtime.dll",
+		"System.Linq.Expressions.dll",
+		"System.Runtime.Serialization.Formatters.dll",
+		"System.ObjectModel.dll",
+		"System.Text.RegularExpressions.dll",
+		"System.Xml.ReaderWriter.dll",
+		"System.Text.Encoding.dll",
+		"System.Reflection.Primitives.dll",
+		"System.Text.Encoding.Extensions.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
