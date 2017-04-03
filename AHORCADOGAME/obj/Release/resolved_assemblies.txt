@@ -1,0 +1,17 @@
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\AHORCADOGAME.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\Java.Interop.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\Microsoft.CSharp.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\Mono.Android.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\mscorlib.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.Core.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.Xml.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.Xml.Linq.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\Newtonsoft.Json.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\Mono.CSharp.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.Runtime.Serialization.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.ServiceModel.Internals.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.Numerics.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.Xml.XmlDocument.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.ComponentModel.TypeConverter.dll
+F:\REPOS\MOVILES_AHORCADO\AHORCADOGAME\obj\Release\android\assets\System.Runtime.Serialization.Formatters.dll
