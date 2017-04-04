@@ -55,14 +55,13 @@ public final class R {
         public static final int btn_palabras=0x7f050035;
         public static final int btn_salir=0x7f050030;
         public static final int btnÑ=0x7f05001d;
-        public static final int cronometro=0x7f05000b;
         public static final int gridLayout_Teclado=0x7f05000e;
         public static final int imageView1=0x7f050008;
         public static final int imgTitulo=0x7f050003;
         public static final int lblNombre=0x7f050031;
         public static final int lblPalabraOculta=0x7f05000d;
         public static final int lblVerListas=0x7f050038;
-        public static final int lbl_Nombre=0x7f05000a;
+        public static final int lbl_Nombre=0x7f05000b;
         public static final int linearLayout1=0x7f050000;
         public static final int linearLayout2=0x7f050007;
         public static final int linearLayout3=0x7f050009;
@@ -76,6 +75,7 @@ public final class R {
         public static final int textView000=0x7f05002d;
         public static final int textView1=0x7f050001;
         public static final int textView2=0x7f05002b;
+        public static final int textViewContador=0x7f05000a;
         public static final int txtNombre=0x7f05002a;
     }
     public static final class layout {

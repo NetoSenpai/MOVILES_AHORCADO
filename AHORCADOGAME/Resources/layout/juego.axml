@@ -35,19 +35,17 @@
                     android:layout_height="match_parent"
                     android:id="@+id/linearLayout3">
                     <TextView
+                        android:text="Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewContador" />
+                    <TextView
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/lbl_Nombre"
                         android:textSize="20dp"
                         android:textStyle="bold" />
-                    <Chronometer
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/cronometro"
-                        android:format="mm:ss"
-                        android:countDown="false"
-                        android:textSize="20dp" />
                     <Button
                         android:text="Comenzar"
                         android:layout_width="match_parent"

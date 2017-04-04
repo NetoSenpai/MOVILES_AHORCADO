@@ -3,9 +3,8 @@
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="14" />
   <uses-permission android:name="android.permission.CAMERA" />
-  <uses-feature android:name="android.hardware.camera" />
-  <uses-feature android:name="android.hardware.camera.autofocus" />
   <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="AHORCADOGAME" android:name="android.app.Application" android:allowBackup="true">
     <activity android:label="CreditosActivity" android:name="md578b798426d27212ec3977d1f815bcd30.CreditosActivity" />
     <activity android:label="instruccionesActivity" android:name="md578b798426d27212ec3977d1f815bcd30.instruccionesActivity" />

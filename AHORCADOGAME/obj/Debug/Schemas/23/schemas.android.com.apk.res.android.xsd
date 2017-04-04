@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>4/2/2017 1:08:28 PM</xs:documentation>
+    <xs:documentation>4/4/2017 11:57:54 AM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16933,7 +16933,6 @@
             <xs:enumeration value="@id/btnX" />
             <xs:enumeration value="@id/btnY" />
             <xs:enumeration value="@id/btnZ" />
-            <xs:enumeration value="@id/cronometro" />
             <xs:enumeration value="@id/gridLayout_Teclado" />
             <xs:enumeration value="@id/imageView1" />
             <xs:enumeration value="@id/imgTitulo" />
@@ -16951,11 +16950,10 @@
             <xs:enumeration value="@id/tableRow2" />
             <xs:enumeration value="@id/tableRow3" />
             <xs:enumeration value="@id/tableRow4" />
-            <xs:enumeration value="@id/textView0" />
-            <xs:enumeration value="@id/textView00" />
             <xs:enumeration value="@id/textView000" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
+            <xs:enumeration value="@id/textViewContador" />
             <xs:enumeration value="@id/txtNombre" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />

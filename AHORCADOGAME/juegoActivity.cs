@@ -10,7 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using System.Text.RegularExpressions;
-
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace AHORCADOGAME
 {
@@ -19,11 +20,12 @@ namespace AHORCADOGAME
     {
 
        public static readonly String LLAVE_NOMBRE = "nombre";
-
+        public static bool cancelatiempo = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
+            
             Queue<string> Cla = new Queue<string>();
 
             string buscar = "[A-Za-z]";
@@ -37,8 +39,16 @@ namespace AHORCADOGAME
 
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.juego);
+            cancelatiempo = false;
+            int tiempo = 20;
 
-           List<string> ListaDesordenada = LstDes(ListasDePalabras.ListaEdosMexico);
+            var cont = FindViewById<TextView>(Resource.Id.textViewContador);
+            cont.Text = String.Format("Tiempo: {0}", tiempo);
+            RunLoop(tiempo);
+
+
+
+            List<string> ListaDesordenada = LstDes(ListasDePalabras.ListaEdosMexico);
 
             if (ListasDePalabras.Cola.Count() == 0)
             {  foreach (string s in ListaDesordenada)  { ListasDePalabras.Cola.Enqueue(s); }
@@ -64,9 +74,10 @@ namespace AHORCADOGAME
             var _Table1 = FindViewById<TableLayout>(Resource.Id.tableLayout1);
             var _imgTitulo = FindViewById<ImageView>(Resource.Id.imgTitulo);
             var lbl_PalabraOculta = FindViewById<TextView>(Resource.Id.lblPalabraOculta);
-            var _cronometro = FindViewById<Chronometer>(Resource.Id.cronometro);
+            //var _cronometro = FindViewById<Chronometer>(Resource.Id.cronometro);
             var _btnStart = FindViewById<Button>(Resource.Id.btnStart);
 
+       
             var _lblNombre = FindViewById<TextView>(Resource.Id.lbl_Nombre);
 
             _lblNombre.Text = nombre;
@@ -526,6 +537,7 @@ namespace AHORCADOGAME
 public void CuadroDialogo(string s)
         {
             AlertDialog.Builder dialogo = new AlertDialog.Builder(this);
+            cancelatiempo = true;
             dialogo.SetTitle("EL AHORCADO - GAME");
             dialogo.SetMessage(s);
          //   dialogo.SetNeutralButton("aceptar",BotonSi);
@@ -560,6 +572,7 @@ public void CuadroDialogo(string s)
         public void CuadroDialogo2(string s)
         {
             AlertDialog.Builder dialogo = new AlertDialog.Builder(this);
+            cancelatiempo = true;
             dialogo.SetTitle("FELICIDADES, HAS ADIVINADO TODAS LAS PALABRAS DE LA CATEGORIA");
             dialogo.SetMessage(s);
               dialogo.SetNeutralButton("aceptar",aceptar);
@@ -568,18 +581,34 @@ public void CuadroDialogo(string s)
             dialogo.Show();
 
         }
-        private void aceptar(object sender,DialogClickEventArgs e)
+        private void aceptar(object sender, DialogClickEventArgs e)
         {
             Finish();
-            
+
             var intent = new Intent(this, typeof(menuActivity));
-          //  ListasDePalabras.Cola.Clear();
+            //  ListasDePalabras.Cola.Clear();
             StartActivity(intent);
 
 
         }
 
 
+        private async void RunLoop(int count)
+        {
+            var countdownView = FindViewById<TextView>(Resource.Id.textViewContador);
+            
+            while (!cancelatiempo)
+            {
+                await Task.Delay(1000);
+                countdownView.Text = string.Format("Tiempo: {0}", count--);
+                if (count < 0)
+                {
+                    CuadroDialogo("PERDISTES .....Deseas seguir jugando ?");
+                    break;
+                }
+
+            }
+        }
 
 
 

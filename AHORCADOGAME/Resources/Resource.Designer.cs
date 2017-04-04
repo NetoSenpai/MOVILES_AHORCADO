@@ -183,9 +183,6 @@ namespace AHORCADOGAME
 			// aapt resource value: 0x7f05001d
 			public const int btnÑ = 2131034141;
 			
-			// aapt resource value: 0x7f05000b
-			public const int cronometro = 2131034123;
-			
 			// aapt resource value: 0x7f05000e
 			public const int gridLayout_Teclado = 2131034126;
 			
@@ -204,8 +201,8 @@ namespace AHORCADOGAME
 			// aapt resource value: 0x7f050038
 			public const int lblVerListas = 2131034168;
 			
-			// aapt resource value: 0x7f05000a
-			public const int lbl_Nombre = 2131034122;
+			// aapt resource value: 0x7f05000b
+			public const int lbl_Nombre = 2131034123;
 			
 			// aapt resource value: 0x7f050000
 			public const int linearLayout1 = 2131034112;
@@ -245,6 +242,9 @@ namespace AHORCADOGAME
 			
 			// aapt resource value: 0x7f05002b
 			public const int textView2 = 2131034155;
+			
+			// aapt resource value: 0x7f05000a
+			public const int textViewContador = 2131034122;
 			
 			// aapt resource value: 0x7f05002a
 			public const int txtNombre = 2131034154;

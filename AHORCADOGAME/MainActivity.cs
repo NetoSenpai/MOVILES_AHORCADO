@@ -117,7 +117,8 @@ namespace AHORCADOGAME
                     //View ImageView  
                     ImgView.RecycleBitmap();
                     ImgView.SetImageBitmap(bitmap);
-                    //Upload Image in Database  
+                    //Upload Image in Database
+                    GC.Collect();  
                 }
             }
         }
