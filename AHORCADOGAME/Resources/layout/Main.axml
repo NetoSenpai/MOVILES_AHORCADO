@@ -13,7 +13,8 @@
         android:layout_height="41.5dp"
         android:id="@+id/txtNombre"
         android:hint="Nombre"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:maxLength="10" />
     <TextView
         android:text="CAPTURAR IMAGEN PERSONAL"
         android:layout_width="match_parent"
