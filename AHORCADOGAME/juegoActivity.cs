@@ -12,16 +12,21 @@ using Android.Widget;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Threading;
+using Android.Graphics;
+using AHORCADOGAME.Resources;
 
 namespace AHORCADOGAME
 {
     [Activity(Label = "juegoActivity")]
     public class juegoActivity : Activity
     {
-
+        
        public static readonly String LLAVE_NOMBRE = "nombre";
         public static bool cancelatiempo = false;
+        public static int errores = 0;
+        public static bool onDialog = false;
 
+        
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
@@ -34,13 +39,30 @@ namespace AHORCADOGAME
             string palabraAdivinar = "";
 
 
-            var nombre = Intent.GetStringExtra(LLAVE_NOMBRE);
-
+            //var nombre = Intent.GetStringExtra(LLAVE_NOMBRE);
+            var nombre = PathHelper.nombrecito;
+            var path = PathHelper.caminito;
 
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.juego);
             cancelatiempo = false;
-            int tiempo = 20;
+            int tiempo = 25;
+
+            if (!string.IsNullOrEmpty(path))
+            {
+                ImageView ImgView = FindViewById<ImageView>(Resource.Id.imageView1);
+
+                int height = 165;
+                int width = 65;
+                using (Bitmap bitmap = path.LoadAndResizeBitmap(width, height))
+                {
+                    //View ImageView  
+                    //ImgView.RecycleBitmap();
+                    ImgView.SetImageBitmap(bitmap);
+                    //Upload Image in Database
+                    GC.Collect();
+                }
+            }
 
             var cont = FindViewById<TextView>(Resource.Id.textViewContador);
             cont.Text = String.Format("Tiempo: {0}", tiempo);
@@ -75,7 +97,7 @@ namespace AHORCADOGAME
             var _imgTitulo = FindViewById<ImageView>(Resource.Id.imgTitulo);
             var lbl_PalabraOculta = FindViewById<TextView>(Resource.Id.lblPalabraOculta);
             //var _cronometro = FindViewById<Chronometer>(Resource.Id.cronometro);
-            var _btnStart = FindViewById<Button>(Resource.Id.btnStart);
+            //var _btnStart = FindViewById<Button>(Resource.Id.btnStart);
 
        
             var _lblNombre = FindViewById<TextView>(Resource.Id.lbl_Nombre);
@@ -472,8 +494,8 @@ namespace AHORCADOGAME
             char[] palguicar = PalGuiones.ToCharArray();
             int NumCarac = caracs.Length-1;
 
-          
 
+            int veces = 0;
            for( pos=0;pos<=NumCarac;pos++)
             {
                 if (pos <= NumCarac)
@@ -481,17 +503,46 @@ namespace AHORCADOGAME
                     if (caracs[pos] == letra)
                     {
                         palguicar[pos] = letra;
-                                             
+                        veces++;                   
                     }
                 }
                
             }
            
+           if(veces==0)
+            {
+                CambiaFoto();
+            }
             string ps = new string(palguicar);
             return ps;
         }
 
-
+        public void CambiaFoto()
+        {
+            ImageView ImgView = FindViewById<ImageView>(Resource.Id.imageView2);
+            errores++;
+            if(errores==1)
+            {
+                ImgView.SetImageResource(Resource.Drawable.error1);
+            }
+            else if (errores==2)
+            {
+                ImgView.SetImageResource(Resource.Drawable.error2);
+            }
+            else if (errores==3)
+            {
+                ImgView.SetImageResource(Resource.Drawable.error3);
+            }
+            else if (errores==4)
+            {
+                ImgView.SetImageResource(Resource.Drawable.error4);
+            }
+            else
+            {
+                ImgView.SetImageResource(Resource.Drawable.error5);
+                CuadroDialogo("PERDISTES .....Deseas seguir jugando ?");
+            }
+        }
 
 
         
@@ -538,13 +589,16 @@ public void CuadroDialogo(string s)
         {
             AlertDialog.Builder dialogo = new AlertDialog.Builder(this);
             cancelatiempo = true;
+            errores = 0;
             dialogo.SetTitle("EL AHORCADO - GAME");
             dialogo.SetMessage(s);
          //   dialogo.SetNeutralButton("aceptar",BotonSi);
               dialogo.SetPositiveButton("SI",BotonSi);
              dialogo.SetNegativeButton("NO",BotonNo);
+            dialogo.SetCancelable(false);
             dialogo.Show();
-
+            
+            //Finish();
         }
 
        
@@ -554,16 +608,12 @@ public void CuadroDialogo(string s)
         private void BotonSi(object sender, DialogClickEventArgs e)
         {
             var intent = new Intent(this, typeof(juegoActivity));
-
-
             Finish();
             StartActivity(intent);
-            
         }
         private void BotonNo(object sender, DialogClickEventArgs e)
         {
             Finish();
-           
         }
 
 

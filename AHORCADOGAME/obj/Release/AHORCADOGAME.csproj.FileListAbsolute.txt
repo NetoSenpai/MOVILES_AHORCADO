@@ -103,5 +103,11 @@ C:\Repos\AHORCADOGAME\obj\Release\android\assets\System.Runtime.Serialization.dl
 C:\Repos\AHORCADOGAME\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Repos\AHORCADOGAME\obj\Release\android\assets\System.Xml.dll.mdb
 C:\Repos\AHORCADOGAME\obj\Release\android\assets\System.Xml.Linq.dll.mdb
+C:\Repos\AHORCADOGAME\obj\Release\res\drawable\error1.png
+C:\Repos\AHORCADOGAME\obj\Release\res\drawable\error2.png
+C:\Repos\AHORCADOGAME\obj\Release\res\drawable\error3.png
+C:\Repos\AHORCADOGAME\obj\Release\res\drawable\error4.png
+C:\Repos\AHORCADOGAME\obj\Release\res\drawable\error5.png
+C:\Repos\AHORCADOGAME\obj\Release\AHORCADOGAME.csprojResolveAssemblyReference.cache
 C:\Repos\AHORCADOGAME\obj\Release\AHORCADOGAME.dll.mdb
 C:\Repos\AHORCADOGAME\bin\Release\AHORCADOGAME.dll.mdb

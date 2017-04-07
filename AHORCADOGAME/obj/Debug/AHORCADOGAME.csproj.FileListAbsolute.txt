@@ -297,6 +297,11 @@ C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\oeste2.jpg
 C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\oeste3.jpg
 C:\Repos\AHORCADOGAME\obj\Debug\R.cs.flag
 C:\Repos\AHORCADOGAME\obj\Debug\uploadflags.txt
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\error1.png
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\error2.png
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\error3.png
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\error4.png
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\error5.png
 C:\Repos\AHORCADOGAME\bin\Debug\AHORCADOGAME.dll.mdb
 C:\Repos\AHORCADOGAME\bin\Debug\Java.Interop.dll.mdb
 C:\Repos\AHORCADOGAME\bin\Debug\Microsoft.CSharp.dll.mdb
@@ -330,5 +335,5 @@ C:\Repos\AHORCADOGAME\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Repos\AHORCADOGAME\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Repos\AHORCADOGAME\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Repos\AHORCADOGAME\obj\Debug\AHORCADOGAME.csprojResolveAssemblyReference.cache
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\creditos.jpg
 C:\Repos\AHORCADOGAME\obj\Debug\AHORCADOGAME.dll.mdb
-C:\Repos\AHORCADOGAME\bin\Debug\AHORCADOGAME.dll.mdb

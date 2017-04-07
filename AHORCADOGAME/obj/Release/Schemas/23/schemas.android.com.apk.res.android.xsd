@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>4/2/2017 9:41:15 PM</xs:documentation>
+    <xs:documentation>4/7/2017 2:16:30 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -774,6 +774,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -1410,6 +1415,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -2085,6 +2095,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -2450,6 +2465,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -2766,6 +2786,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -3392,6 +3417,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -3712,6 +3742,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -4048,6 +4083,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -4327,6 +4367,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -4583,6 +4628,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -5157,6 +5207,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -5577,6 +5632,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -5963,6 +6023,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -6404,6 +6469,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -6720,6 +6790,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -7036,6 +7111,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -7392,6 +7472,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -7708,6 +7793,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -8134,6 +8224,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -8506,6 +8601,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -8786,6 +8886,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -9224,6 +9329,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -9636,6 +9746,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -10166,6 +10281,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -10634,6 +10754,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -11072,6 +11197,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -11686,6 +11816,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -11924,6 +12059,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -12162,6 +12302,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -12400,6 +12545,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -12638,6 +12788,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -12876,6 +13031,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -13114,6 +13274,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -13352,6 +13517,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -13784,6 +13954,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -14049,6 +14224,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -14287,6 +14467,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -14525,6 +14710,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -14763,6 +14953,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -15041,6 +15236,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -15279,6 +15479,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -15595,6 +15800,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -15873,6 +16083,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -16202,6 +16417,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -16440,6 +16660,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -16925,7 +17150,6 @@
             <xs:enumeration value="@id/btnQ" />
             <xs:enumeration value="@id/btnR" />
             <xs:enumeration value="@id/btnS" />
-            <xs:enumeration value="@id/btnStart" />
             <xs:enumeration value="@id/btnT" />
             <xs:enumeration value="@id/btnU" />
             <xs:enumeration value="@id/btnV" />
@@ -16933,17 +17157,15 @@
             <xs:enumeration value="@id/btnX" />
             <xs:enumeration value="@id/btnY" />
             <xs:enumeration value="@id/btnZ" />
-            <xs:enumeration value="@id/cronometro" />
             <xs:enumeration value="@id/gridLayout_Teclado" />
             <xs:enumeration value="@id/imageView1" />
+            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/imgTitulo" />
             <xs:enumeration value="@id/lbl_Nombre" />
             <xs:enumeration value="@id/lblNombre" />
             <xs:enumeration value="@id/lblPalabraOculta" />
             <xs:enumeration value="@id/lblVerListas" />
             <xs:enumeration value="@id/linearLayout1" />
-            <xs:enumeration value="@id/linearLayout2" />
-            <xs:enumeration value="@id/linearLayout3" />
             <xs:enumeration value="@id/listView1" />
             <xs:enumeration value="@id/spnCategorias" />
             <xs:enumeration value="@id/tableLayout1" />
@@ -16951,11 +17173,10 @@
             <xs:enumeration value="@id/tableRow2" />
             <xs:enumeration value="@id/tableRow3" />
             <xs:enumeration value="@id/tableRow4" />
-            <xs:enumeration value="@id/textView0" />
-            <xs:enumeration value="@id/textView00" />
             <xs:enumeration value="@id/textView000" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
+            <xs:enumeration value="@id/textViewContador" />
             <xs:enumeration value="@id/txtNombre" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
@@ -17032,6 +17253,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -17380,6 +17606,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -17713,6 +17944,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -18279,6 +18515,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -18603,6 +18844,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -19001,6 +19247,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -19359,6 +19610,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -19613,6 +19869,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -20312,6 +20573,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -20672,6 +20938,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -21666,6 +21937,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -21916,6 +22192,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -22195,6 +22476,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -22473,6 +22759,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -22711,6 +23002,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -22949,6 +23245,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -23187,6 +23488,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -23425,6 +23731,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -24136,6 +24447,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -24391,6 +24707,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -24707,6 +25028,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -25416,6 +25742,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -25772,6 +26103,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -26191,6 +26527,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -26539,6 +26880,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -26777,6 +27123,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -27559,6 +27910,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -27797,6 +28153,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -28035,6 +28396,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -28273,6 +28639,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -28691,6 +29062,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -28929,6 +29305,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -29335,6 +29716,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -29573,6 +29959,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -29889,6 +30280,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -30570,6 +30966,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -31101,6 +31502,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -31475,6 +31881,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -32664,6 +33075,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -32943,6 +33359,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -33272,6 +33693,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -33590,6 +34016,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -33828,6 +34259,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -34106,6 +34542,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -34344,6 +34785,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -34729,6 +35175,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -34967,6 +35418,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -35283,6 +35739,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -35599,6 +36060,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -35915,6 +36381,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -36231,6 +36702,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -36495,6 +36971,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -36733,6 +37214,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -36971,6 +37457,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -37209,6 +37700,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -37447,6 +37943,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -37859,6 +38360,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -38097,6 +38603,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -38335,6 +38846,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -39510,6 +40026,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -40338,6 +40859,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -40747,6 +41273,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -41500,6 +42031,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -41964,6 +42500,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -42218,6 +42759,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -42456,6 +43002,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -42694,6 +43245,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -43010,6 +43566,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -43378,6 +43939,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />
@@ -43616,6 +44182,11 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/elhg" />
+            <xs:enumeration value="@drawable/error1" />
+            <xs:enumeration value="@drawable/error2" />
+            <xs:enumeration value="@drawable/error3" />
+            <xs:enumeration value="@drawable/error4" />
+            <xs:enumeration value="@drawable/error5" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/oeste1" />
             <xs:enumeration value="@drawable/oeste2" />

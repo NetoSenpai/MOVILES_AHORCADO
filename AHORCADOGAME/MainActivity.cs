@@ -13,6 +13,7 @@ using Android.Content.PM;
 using Android.Graphics;
 using Android.Net;
 using Uri = Android.Net.Uri;
+using AHORCADOGAME.Resources;
 
 namespace AHORCADOGAME
 {
@@ -55,11 +56,26 @@ namespace AHORCADOGAME
 
             btn_empezar.Click += (s, e) =>
             {
+                
                 var intent = new Intent(this, typeof(menuActivity));
+                if(string.IsNullOrEmpty(txt_nombre.Text))
+                {
+                    Toast.MakeText(this, "Ingrese un nombre", ToastLength.Short).Show();
+                    return;
+                }
+                else
+                {
+                    PathHelper.nombrecito = text_nombre.Text;
+                }
+                if (!string.IsNullOrEmpty(_file.Path))
+                    PathHelper.caminito = _file.Path;
+                else
+                {
+                    Toast.MakeText(this, "Favor de tomar una foto", ToastLength.Short).Show();
+                    return;
+                }
 
-                intent.PutExtra(menuActivity.LLAVE_NOMBRE,txt_nombre.Text);
-
-
+                //intent.PutExtra(menuActivity.LLAVE_NOMBRE, txt_nombre.Text);
                 StartActivity(intent);
 
 
