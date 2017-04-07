@@ -24,6 +24,7 @@ namespace AHORCADOGAME
         ImageView ImgView;
         public static File _file;
         public static File _dir;
+        public static bool pictaken = false;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -65,9 +66,9 @@ namespace AHORCADOGAME
                 }
                 else
                 {
-                    PathHelper.nombrecito = text_nombre.Text;
+                    PathHelper.nombrecito = txt_nombre.Text;
                 }
-                if (!string.IsNullOrEmpty(_file.Path))
+                if (pictaken)
                     PathHelper.caminito = _file.Path;
                 else
                 {
@@ -134,7 +135,8 @@ namespace AHORCADOGAME
                     ImgView.RecycleBitmap();
                     ImgView.SetImageBitmap(bitmap);
                     //Upload Image in Database
-                    GC.Collect();  
+                    GC.Collect();
+                    pictaken = true; 
                 }
             }
         }

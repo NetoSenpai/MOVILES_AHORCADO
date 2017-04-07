@@ -13,15 +13,17 @@ public final class R {
     public static final class drawable {
         public static final int creditos=0x7f020000;
         public static final int elhg=0x7f020001;
-        public static final int error1=0x7f020002;
-        public static final int error2=0x7f020003;
-        public static final int error3=0x7f020004;
-        public static final int error4=0x7f020005;
-        public static final int error5=0x7f020006;
-        public static final int icon=0x7f020007;
-        public static final int oeste1=0x7f020008;
-        public static final int oeste2=0x7f020009;
-        public static final int oeste3=0x7f02000a;
+        public static final int error0=0x7f020002;
+        public static final int error1=0x7f020003;
+        public static final int error2=0x7f020004;
+        public static final int error3=0x7f020005;
+        public static final int error4=0x7f020006;
+        public static final int error5=0x7f020007;
+        public static final int icon=0x7f020008;
+        public static final int instrucciones=0x7f020009;
+        public static final int oeste1=0x7f02000a;
+        public static final int oeste2=0x7f02000b;
+        public static final int oeste3=0x7f02000c;
     }
     public static final class id {
         public static final int btnA=0x7f05000a;

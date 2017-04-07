@@ -336,4 +336,7 @@ C:\Repos\AHORCADOGAME\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Repos\AHORCADOGAME\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Repos\AHORCADOGAME\obj\Debug\AHORCADOGAME.csprojResolveAssemblyReference.cache
 C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\creditos.jpg
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\error0.png
+C:\Repos\AHORCADOGAME\obj\Debug\res\drawable\instrucciones.jpg
 C:\Repos\AHORCADOGAME\obj\Debug\AHORCADOGAME.dll.mdb
+C:\Repos\AHORCADOGAME\bin\Debug\AHORCADOGAME.dll.mdb
